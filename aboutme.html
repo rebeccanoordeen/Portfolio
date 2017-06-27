@@ -37,11 +37,15 @@ body{
 <div class="center">
 <img src = "https://lh6.googleusercontent.com/-a2dgJHh84y4/AAAAAAAAAAI/AAAAAAAAAN4/XuSCtNp42YA/photo.jpg" style="width:350px;height:350px;"></div>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<p id="demo">Here are my social media platforms I am a part of.</p>
 
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button type="button" onclick="myFunction()">Try it</button>
 
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Instgram";
+}
+</script>
 
 </div>
 
